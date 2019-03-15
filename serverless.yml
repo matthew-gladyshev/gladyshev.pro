@@ -1,4 +1,4 @@
-service: mitya-site-service
+service: gladyshev-pro-service
 
 plugins:
   - serverless-finch
