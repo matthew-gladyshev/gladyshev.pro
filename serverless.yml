@@ -1,3 +1,5 @@
+org: mitya
+app: gladyshev-pro
 service: gladyshev-pro-service
 
 plugins:
