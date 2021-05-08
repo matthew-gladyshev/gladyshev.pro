@@ -5,14 +5,15 @@ plugins:
 
 provider:
   name: aws
+  profile: personal
 
 custom:
   siteName: gladyshev.pro
-  aliasHostedZoneId: ${ssm:GladyshevProAliasHostedZoneId}   
+  aliasHostedZoneId: ${ssm:GladyshevProAliasHostedZoneId}
   aliasDNSName: s3-website-us-east-1.amazonaws.com
-
   client:
     bucketName: gladyshev.pro
+    distributionFolder: client/dist
 
 DnsRecord:
       Type: "AWS::Route53::RecordSet"

@@ -10,6 +10,19 @@
         </a>
       </li>
       <li>
+        <a href="https://github.com/dgladyshev" target="_blank">
+          github
+        </a>
+      </li>
+      <li>
+        <a
+          href="mailto:mitwYgya@gladyshevwYg.pro"
+          onmouseover="this.href=this.href.replace(/wYg/g,'');"
+        >
+          email
+        </a>
+      </li>
+      <li>
         <a href="https://www.facebook.com/nomad.mitya" target="_blank">
           facebook
         </a>
@@ -17,11 +30,6 @@
       <li>
         <a href="https://www.instagram.com/mitya_gladyshev" target="_blank">
           instagram
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/dgladyshev" target="_blank">
-          github
         </a>
       </li>
       <br />
